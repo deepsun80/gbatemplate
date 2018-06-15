@@ -1,0 +1,78 @@
+.view, body, html {
+  height: 100%;
+}
+
+.navbar {
+  background-color: rgba(255,255,255, 0.8);
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+
+.navbar-nav {
+  margin-right: 50px;
+}
+
+.top-nav-collapse {
+  background-color: #fff;
+}
+
+.jumbotron-home {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.jumbotron-home .container {
+  margin-top: 12vh;
+}
+
+.jumbotron-forms {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("../images/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.jumbotron-forms .container {
+  margin: 2% auto;
+}
+
+.jumbotron-forms .container .form-panel {
+  min-height: 45vh;
+}
+
+.page-footer {
+  background-color: #1C2331;
+}
+
+.card {
+  padding-top: 10px;
+}
+
+.card .card-title {
+  text-align: center;
+}
+
+.list-unstyled li {
+  line-height: 2.0em;
+}
+
+@media only screen and (max-width:768px) {
+  .navbar {
+    background-color: #fff;
+  }
+
+  .jumbotron h1 {
+    padding-top: 15px;
+    margin-left: 3%;
+    font-size: 28px;
+  }
+
+  .jumbotron p {
+    margin-left: 3%;
+    font-size: 14px;
+  }
+}
